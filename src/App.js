@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Link, NavLink, Outlet, Route, Routes } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
-import UserList from './pages/userList/userList';
+import UserList from './pages/clientUserList/clientUserList';
 
 function Navi() {
   return (
@@ -14,7 +14,7 @@ function Navi() {
         <Nav.Link href="/business" eventKey="link-1">Option 2</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/client" eventKey="link-2">Disabled</Nav.Link>
+        <Nav.Link href="/clientUserList" eventKey="link-2">Disabled</Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link href="/shop" eventKey="link-3">Option 2</Nav.Link>

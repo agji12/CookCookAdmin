@@ -50,7 +50,7 @@ const MemberTable = () => {
         </thead>
         <tbody>
           {members.map((member) => (
-            <tr key={member.code}>
+            <tr key={member.code} className="userBoard">
               <td>{member.code}</td>
               <td>{member.name}</td>
               <td>{member.id}</td>

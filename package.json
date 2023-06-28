@@ -22,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild": "xcopy /y /i /e build C:\\STSWorkspace\\CookCook\\src\\main\\webapp\\resources\\adminPage"
   },
   "eslintConfig": {
     "extends": [
@@ -42,4 +43,5 @@
       "last 1 safari version"
     ]
   }
+ 
 }
