@@ -15,7 +15,7 @@
     "re-start": "rm -rf build node_modules && yarn install && yarn start",
     "re-build": "rm -rf build node_modules && yarn install && yarn build",
     "subinbuild": "react-scripts build && xcopy /y /i /e build C:\\STSWorkspace\\CookCook\\src\\main\\webapp\\resources\\adminPage",
-    "agjibuild": "react-scripts build && xcopy /y /i /e build D:\\STSWorkspace\\CookCook\\src\\main\\webapp\\resources\\adminPage",
+    "agjibuild": "react-scripts build && xcopy /y /i /e build D:\\STSWorkspace\\CookCook\\src\\main\\webapp\\resources\\admin",
     "sinheebuild": "react-scripts build && xcopy /y /i /e build F:\\2023_01_SmartWeb\\STSWorkspace\\CookCook\\src\\main\\webapp\\resources\\adminPage",
     "gaeunBuild": "react-scripts build && xcopy /y /i /e build F:\\KH\\CookCook\\CookCook\\src\\main\\webapp\\resources\\adminPage"
   },
