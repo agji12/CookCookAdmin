@@ -31,7 +31,7 @@ const Logo = forwardRef(({ disabledLink = false, sx, ...other }, ref) => {
   }
 
   return (
-    <Link to="http://localhost" component={RouterLink} sx={{ display: 'contents' }}>
+    <Link to="http://43.202.43.128/" component={RouterLink} sx={{ display: 'contents' }}>
       {logo} CookCook으로 가기
     </Link>
   );
